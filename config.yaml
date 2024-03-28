@@ -1,0 +1,148 @@
+    # Project definitions (do not edit)
+Task: MotorBox
+scorer: Maureen
+date: May23
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: C:/Users/maure/Desktop/Deeplabcut/MotorBox-Maureen-2023-05-23
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline2CCI_4k_60Hzcropped.MP4:
+    crop: 0, 1720, 0, 1702
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\3dpi3_MBcropped.MP4:
+    crop: 0, 1890, 0, 1896
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline3CCI_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 856, 0, 878
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline10_MB_1440p_60Hzcropped.MP4:
+    crop: 0, 864, 0, 856
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline10CCI_MB_1440p_60Hzcropped.MP4:
+    crop: 0, 870, 0, 870
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline10CCI_MB_1440p_120Hzcropped.MP4:
+    crop: 0, 742, 0, 748
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline10CCI_MB_Activity_2.7K_60Hz_SuperViewcropped.MP4:
+    crop: 0, 924, 0, 820
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\Baseline4_CCI_MB_1080p_120Hz.MP4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\C1_DBlue_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 870, 0, 882
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C1_DRed_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 880, 0, 896
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C1_SRed_Baseline_4k_60Hzcropped.MP4:
+    crop: 0, 1724, 0, 1744
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C2_DBlue_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 988, 0, 984
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C3_SRed_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 972, 0, 984
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C3_DBlue_Baseline_1080p_120Hz.MP4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C2_SBlue_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 880, 0, 884
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\C2_SRed_Baseline_MB_1080p_120Hzcropped.MP4:
+    crop: 0, 970, 0, 960
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\3dpi\C1_SBlue_3dpi_MBcropped.MP4:
+    crop: 0, 1860, 0, 1860
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\3dpi\C3_DBlue_3dpi_MBcropped.MP4:
+    crop: 0, 1818, 0, 1890
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\3dpi\C2_SRed_3dpi_MBcropped.MP4:
+    crop: 0, 1818, 0, 1860
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\5dpi\MB_C1_DBlue_5dpicropped.MP4:
+    crop: 0, 1880, 0, 1864
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\CCI_Study\MB\5dpi\MB_C2_SBlue_5dpicropped.MP4:
+    crop: 0, 1858, 0, 1858
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\SCI_Study_6.26.23\MB\4dpi\6_SCI_4dpicropped.MP4:
+    crop: 0, 1880, 0, 1848
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\SCI_Study_6.26.23\MB\4dpi\10_SCI_4dpicropped.MP4:
+    crop: 0, 1848, 0, 1858
+  C:\Users\mca47\Desktop\Machine_Learning\VideosAll\SCI_Study_6.26.23\MB\4dpi\18_SCI_4dpicropped.MP4:
+    crop: 0, 1870, 0, 1818
+  C:\Users\mca47\Desktop\Machine_Learning\AnalyzeAll\1_EAE_52dpicropped.MP4:
+    crop: 0, 1850, 0, 1858
+  C:\Users\mca47\Desktop\Machine_Learning\AnalyzeAll\5_EAE_52dpicropped.MP4:
+    crop: 0, 1848, 0, 1870
+  C:\Users\mca47\Desktop\Machine_Learning\AnalyzeAll\7_EAE_52dpicropped.MP4:
+    crop: 0, 1860, 0, 1858
+individuals:
+- Mouse
+uniquebodyparts: []
+multianimalbodyparts:
+- Snout
+- Left_forelimb
+- Right_forelimb
+- Top_body
+- Left_hindlimb
+- Right_hindlimb
+- Bottom_body
+- Tail_2base
+- Tail_15
+- Tail_1
+- Tail_05
+- Tail_0
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 10
+
+    # Plotting configuration
+skeleton:
+- - Tail_1
+  - Tail_05
+- - Tail_05
+  - Tail_0
+- - Left_hindlimb
+  - Bottom_body
+- - Left_forelimb
+  - Left_hindlimb
+- - Right_hindlimb
+  - Tail_2base
+- - Right_forelimb
+  - Top_body
+- - Bottom_body
+  - Tail_2base
+- - Tail_15
+  - Tail_1
+- - Right_hindlimb
+  - Bottom_body
+- - Top_body
+  - Bottom_body
+- - Right_forelimb
+  - Right_hindlimb
+- - Left_forelimb
+  - Top_body
+- - Left_hindlimb
+  - Tail_2base
+- - Tail_2base
+  - Tail_15
+skeleton_color: white
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.85
+iteration: 8
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
